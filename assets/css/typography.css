@@ -1,0 +1,37 @@
+/* assets/css/typography.css */
+
+/* Fontes Personalizadas */
+@font-face {
+    font-family: 'Jovelyn';
+    src: url('../fonts/Jovelyn-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiss-bold';
+    src: url('../fonts/Swiss721Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiss';
+    src: url('../fonts/Swiss721Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicação das fontes personalizadas */
+body {
+    font-family: 'Swiss', sans-serif; /* Fonte padrão do corpo */
+}
+
+h1, h2 {
+    font-family: 'Jovelyn', serif; /* Fonte para os títulos */
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Swiss-bold', serif; /* Fonte para os subtítulos */
+}
+

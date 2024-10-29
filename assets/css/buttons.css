@@ -1,0 +1,28 @@
+/* Estilos padrão buttons */
+.btn {
+    font-family:'Swiss-bold', Times, serif;
+    transition: .5s;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    padding: 12px 36px;
+    background-color: var(--primary);
+    box-shadow: inset 0 0 0 50px transparent;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s;
+    animation: fadeIn 1.5s forwards 0.6s;
+    opacity: 0;
+    
+}
+
+.cta-button:hover {
+    background-color:var(--emphasis);
+    box-shadow: inset 0 0 0 0 #000000;
+    border-radius: 8px;
+    z-index: 999;
+}

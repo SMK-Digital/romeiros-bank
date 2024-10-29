@@ -1,0 +1,243 @@
+Abas Principais do Site:
+
+	1.	Início
+	2.	Sobre Nós
+	3.	Serviços
+	•	Conta Digital
+	•	Microcrédito
+	•	Doações
+	•	Poupança Automática
+	•	Parcerias e Benefícios
+	4.	Transparência
+	5.	Como Funciona
+	6.	Dicas de Romaria
+	7.	Blog e Notícias
+	8.	Fale Conosco
+	9.	Login/Cadastro
+
+1. Início (Home)
+
+A página inicial deve ser acolhedora, destacando o papel da fintech e suas funcionalidades.
+
+Texto para o Banner Principal:
+
+Romeiros Bank
+“Sua Fé, Nosso Apoio. Juntos nas Maiores Romarias do Brasil!”
+A conta digital que faz a diferença na sua vida e na jornada de milhares de romeiros. Parte da sua tarifa é investida diretamente em serviços essenciais para garantir a segurança e o bem-estar dos romeiros, como ambulância, transporte, pontos de apoio e muito mais.
+[Botão: Abra sua Conta Agora]
+
+Seções da Página Início:
+
+	•	Introdução:
+“O Romeiros Bank foi criado para unir fé e apoio. Com nossa conta digital, simples e acessível, você contribui para serviços essenciais que apoiam os romeiros em suas jornadas, como ambulâncias, pontos de apoio, transporte e assistência médica.”
+	•	Nossos Serviços: (com ícones de cada serviço)
+	•	Conta Digital: “Uma conta acessível e prática para você.”
+	•	Microcrédito sem Juros: “Financiamos sua romaria com crédito justo e sem juros.”
+	•	Doações Digitais: “Doe diretamente para igrejas e santuários de sua escolha.”
+	•	Benefícios para Afiliados: “Descontos exclusivos em hospedagem, alimentação e apoio durante as romarias.”
+	•	Transparência e Escolha da Romaria:
+“Parte da sua tarifa contribui diretamente para o bem-estar dos romeiros durante as maiores romarias do Brasil. Com o Romeiros Bank, você apoia uma rede de serviços essenciais, garantindo segurança e conforto para todos os peregrinos.”
+[Botão: Abra sua Conta Agora]
+
+2. Sobre Nós
+
+Essa aba conta a história da fintech e sua missão de apoio aos romeiros, destacando o impacto social.
+
+Texto Sugerido:
+
+Quem Somos
+“O Romeiros Bank não é apenas uma fintech, mas um movimento de apoio aos romeiros do Brasil. Nossa missão é oferecer uma solução financeira inclusiva, garantindo também o suporte necessário durante as romarias, com serviços como transporte, ambulância e pontos de apoio.”
+
+Nossa Missão
+“Facilitar a vida dos romeiros com soluções financeiras acessíveis e contribuir para sua segurança e bem-estar durante suas jornadas de fé.”
+
+Nossa Visão
+“Ser a fintech de maior impacto social nas romarias do Brasil, garantindo que parte de cada tarifa seja reinvestida no cuidado direto aos romeiros.”
+
+3. Serviços
+
+Aqui, cada serviço é explicado detalhadamente, com foco nos benefícios e na função social de cada um.
+
+Conta Digital
+
+Texto Sugerido:
+“Com uma tarifa de R$ 29,90 por mês, você tem acesso a uma conta digital completa e prática. Parte dessa tarifa é destinada ao apoio direto aos romeiros, garantindo serviços essenciais como transporte, ambulâncias, técnicos de enfermagem e pontos de apoio.”
+
+Microcrédito Sem Juros
+
+Texto Sugerido:
+“Precisando de um apoio financeiro para sua romaria? O Romeiros Bank oferece microcrédito sem juros, pensado para ajudar romeiros a realizarem suas peregrinações com tranquilidade. Todo o processo é simples e direto pelo app, com parcelas acessíveis.”
+
+Doações Digitais
+
+Texto Sugerido:
+“Contribua para as igrejas e santuários diretamente pelo app de forma simples e segura. No Romeiros Bank, você pode fazer suas doações e ajudar a manter viva a fé das comunidades que apoiam as romarias.”
+
+Poupança Automática
+
+Texto Sugerido:
+“Planeje sua próxima romaria sem preocupações financeiras! Com a poupança automática do Romeiros Bank, você estabelece metas e nós ajudamos você a alcançá-las de maneira prática.”
+
+Parcerias e Benefícios para Afiliados
+
+Texto Sugerido:
+“Como afiliado do Romeiros Bank, você terá acesso a descontos exclusivos em hospedagem, alimentação e transporte durante as romarias. Nossos parceiros estão prontos para oferecer vantagens que tornarão sua viagem mais confortável e acessível.”
+
+4. Transparência
+
+Aqui, você exibirá os valores arrecadados e como eles são utilizados.
+
+Texto Sugerido:
+
+Painel de Transparência
+“Transparência é um dos nossos valores fundamentais. Veja como parte da tarifa mensal é investida no bem-estar dos romeiros, garantindo serviços essenciais como ambulâncias, transporte e assistência médica durante as maiores romarias do Brasil.”
+
+Valores Arrecadados e Destinos
+
+	•	Valor arrecadado em: [Data]
+	•	Total arrecadado: [R$]
+	•	Distribuição:
+	•	Ambulâncias: [R$]
+	•	Pontos de Apoio: [R$]
+	•	Transporte: [R$]
+	•	Técnicos de Enfermagem: [R$]
+	•	Empréstimos sem juros para romeiros: [R$]
+
+[Botão: Ver Detalhes por Romaria]
+
+5. Como Funciona
+
+Aqui, será explicado o processo de como a fintech funciona e como parte da tarifa é destinada ao apoio dos romeiros.
+
+Texto Sugerido:
+
+Como Funciona? Simples, Rápido e Transparente.
+“Siga esses passos e aproveite todos os benefícios do Romeiros Bank!”
+
+	1.	Abra Sua Conta Digital: Cadastre-se em poucos minutos e comece a usar nossa conta completa.
+	2.	Apoie e Seja Apoiado: Com parte da sua tarifa, você contribui para serviços essenciais que garantem a segurança e o bem-estar de romeiros em todo o Brasil.
+	3.	Benefícios Exclusivos: Aproveite descontos em hospedagem e alimentação, além de microcrédito sem juros para suas romarias.
+	4.	Participe dos Grupos de Apoio: Entre nos nossos grupos de WhatsApp e troque dicas e experiências com outros romeiros, além de receber suporte em tempo real.
+
+[Botão: Abra sua Conta Agora]
+
+6. Dicas de Romaria
+
+Aqui, serão fornecidas informações práticas sobre como cuidar da saúde e bem-estar durante as romarias.
+
+Texto Sugerido:
+
+Dicas para Sua Romaria
+“A segurança e o bem-estar dos romeiros são prioridade para nós. Confira nossas dicas de como se preparar para sua romaria de maneira cuidadosa e responsável.”
+
+Artigos:
+
+	•	Cuidados com os Pés: Como evitar bolhas e tratar inchaços.
+	•	Roupas Adequadas para Romarias: O que vestir para caminhar longas distâncias.
+	•	Proteção Solar e Hidratação: Como se proteger do sol e manter-se hidratado.
+	•	Materiais de Apoio: Durante as romarias, o Romeiros Bank distribui bonés, protetor solar, capas de chuva e bastões de caminhada para garantir seu conforto e segurança.”
+
+[Botão: Leia Mais]
+
+7. Blog e Notícias
+
+Aqui você pode fornecer dicas sobre planejamento de romarias e informações sobre as maiores romarias do Brasil.
+
+Texto Sugerido para Introdução:
+
+Blog Romeiros Bank - Dicas e Notícias para Sua Jornada de Fé
+“Acompanhe nossas dicas e fique por dentro das maiores romarias do Brasil.”
+
+8. Fale Conosco
+
+Um formulário simples para envio de mensagens e um link para os grupos de WhatsApp de apoio aos romeiros.
+
+Com essas abas e textos, o site será mais completo e informativo, destacando como parte da tarifa mensal é investida diretamente no apoio aos romeiros, incluindo os serviços essenciais que garantem segurança e conforto durante as maiores romarias do Brasil.
+
+As 10 Maiores Romarias do Brasil e Suas Histórias
+
+No Brasil, as romarias são manifestações de fé profundamente enraizadas na cultura religiosa do país. Milhões de romeiros peregrinam todos os anos para santuários e festas religiosas, em devoção a santos padroeiros e à Nossa Senhora. Aqui estão as maiores romarias do Brasil, suas histórias e os santos celebrados em cada uma delas.
+
+1. Nossa Senhora Aparecida (São Paulo)
+
+História: A romaria de Nossa Senhora Aparecida, no interior de São Paulo, é a maior e mais conhecida do Brasil. Sua história começou em 1717, quando pescadores encontraram a imagem da santa no Rio Paraíba do Sul. A devoção cresceu ao longo dos séculos, e em 1930, Nossa Senhora Aparecida foi proclamada Padroeira do Brasil.
+
+Santo Celebrado: Nossa Senhora Aparecida
+Data Principal: 12 de outubro
+Local: Basílica de Nossa Senhora Aparecida, São Paulo
+
+2. Círio de Nazaré (Belém, Pará)
+
+História: O Círio de Nazaré é uma das maiores procissões religiosas do mundo, realizada em Belém, no Pará. A tradição começou em 1793, quando a imagem de Nossa Senhora de Nazaré foi encontrada por um caboclo chamado Plácido José de Souza. Desde então, a festa tem crescido, reunindo milhões de devotos.
+
+Santo Celebrado: Nossa Senhora de Nazaré
+Data Principal: Segundo domingo de outubro
+Local: Belém, Pará
+
+3. Romaria de Juazeiro do Norte (Ceará)
+
+História: A romaria de Juazeiro do Norte, no Ceará, celebra o Padre Cícero Romão Batista, um dos mais influentes líderes religiosos do Nordeste. A romaria começou após a morte do Padre Cícero, em 1934, e atrai milhões de romeiros que buscam pagar promessas e expressar sua fé.
+
+Santo Celebrado: Padre Cícero Romão Batista
+Datas Principais: 20 de julho e 2 de novembro
+Local: Juazeiro do Norte, Ceará
+
+4. Festa do Divino Pai Eterno (Trindade, Goiás)
+
+História: A Festa do Divino Pai Eterno é uma das maiores celebrações religiosas do Centro-Oeste. Ela remonta ao século XIX, quando uma pequena imagem do Divino Pai Eterno foi encontrada por um casal na região de Trindade, Goiás. Desde então, a devoção cresceu e a festa se tornou um evento de dimensão nacional.
+
+Santo Celebrado: Divino Pai Eterno
+Data Principal: Primeiro domingo de julho
+Local: Trindade, Goiás
+
+5. Bom Jesus da Lapa (Bahia)
+
+História: A romaria ao Bom Jesus da Lapa, na Bahia, começou no século XVII, quando o português Francisco de Mendonça Mar construiu uma capela em uma gruta dedicada ao Bom Jesus. Hoje, a cidade de Bom Jesus da Lapa é um importante centro de peregrinação no Brasil.
+
+Santo Celebrado: Bom Jesus da Lapa
+Data Principal: 6 de agosto
+Local: Bom Jesus da Lapa, Bahia
+
+6. Nossa Senhora da Penha (Rio de Janeiro)
+
+História: A devoção à Nossa Senhora da Penha no Rio de Janeiro começou no século XVII. Segundo a tradição, a imagem da santa foi encontrada no alto de um penhasco, onde hoje se localiza a Igreja de Nossa Senhora da Penha. A festa é uma das mais antigas romarias do Brasil.
+
+Santo Celebrado: Nossa Senhora da Penha
+Data Principal: Segundo domingo de outubro
+Local: Rio de Janeiro, RJ
+
+7. Festa de São Francisco das Chagas (Canindé, Ceará)
+
+História: Canindé, no Ceará, é o maior santuário do mundo dedicado a São Francisco das Chagas. A festa em homenagem ao santo começou no século XVIII, quando o local se tornou um ponto de peregrinação para devotos de São Francisco, famoso por suas pregações de paz e humildade.
+
+Santo Celebrado: São Francisco das Chagas
+Data Principal: 4 de outubro
+Local: Canindé, Ceará
+
+8. Romaria do Senhor do Bonfim (Salvador, Bahia)
+
+História: A romaria do Senhor do Bonfim, em Salvador, tem origem no século XVIII, quando a imagem do santo foi trazida de Portugal por um capitão da Marinha. A famosa Lavagem do Bonfim, que faz parte da celebração, é uma das mais tradicionais festas religiosas do Brasil.
+
+Santo Celebrado: Senhor do Bonfim
+Data Principal: Segunda quinta-feira de janeiro
+Local: Salvador, Bahia
+
+9. Romaria de São José de Ribamar (Maranhão)
+
+História: A devoção a São José de Ribamar, no Maranhão, começou no século XVII, com a construção de uma pequena capela dedicada ao santo, que é considerado o padroeiro do estado. A romaria atrai milhares de devotos todos os anos, especialmente em setembro.
+
+Santo Celebrado: São José de Ribamar
+Data Principal: Segundo domingo de setembro
+Local: São José de Ribamar, Maranhão
+
+10. Romaria do Divino Espírito Santo (Mogi das Cruzes, São Paulo)
+
+História: A Festa do Divino Espírito Santo, realizada em Mogi das Cruzes, São Paulo, é uma das romarias mais antigas do Brasil, com mais de 400 anos de tradição. A festa é marcada por procissões, missas e celebrações folclóricas, atraindo fiéis de várias regiões.
+
+Santo Celebrado: Divino Espírito Santo
+Data Principal: 50 dias após a Páscoa
+Local: Mogi das Cruzes, São Paulo
+
+Essas romarias são mais do que eventos religiosos. Elas representam a força da fé e da devoção dos brasileiros, que percorrem longas distâncias para expressar sua espiritualidade e renovar suas esperanças. O Romeiros Bank se orgulha de fazer parte dessa jornada, apoiando os romeiros em suas maiores romarias com serviços essenciais e uma conta digital feita especialmente para eles.
+
+Esse texto pode ser adaptado e ajustado conforme necessário no site, destacando a importância de cada romaria e o papel do Romeiros Bank em apoiar os romeiros durante essas grandes celebrações religiosas.

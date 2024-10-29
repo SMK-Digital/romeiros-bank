@@ -1,0 +1,26 @@
+/* Navbar geral */
+.navbar{
+    padding: 0 50px;
+    background: var(--primary);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Swiss', Times, serif;
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    color:var(--secondary);
+    font-size: 1.2rem;
+    outline: none;
+    transition: 0.5s;
+}
+
+/* Navbar fixa no topo */
+.sticky-top.navbar-dark {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#151f6dea;
+    /* Ajuste de cor */
+    z-index: 999;
+}
