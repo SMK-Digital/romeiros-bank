@@ -468,17 +468,17 @@
 /* CARDS ROMARIAS */
 
 .container-romaria {
-    margin-top: -10rem;
-    margin-bottom: -10rem;
+    /* margin-top: -10rem; */
+    /* margin-bottom: -10rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 .card__title {
     position: relative;
-    top: 3rem;
+    top: 1rem;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.5rem;
@@ -486,6 +486,15 @@
     color: var(--primary);
     z-index: 20;
     padding: 1rem;
+}
+
+.card__text{
+    background: #ffffffa2;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px 30px 1rem 30px;
+    /* margin-bottom: 1rem; */
+    padding: 30px;
 }
 
 .card__container {
