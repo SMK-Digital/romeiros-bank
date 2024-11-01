@@ -16,7 +16,7 @@
 }
 
 .container-hero {
-    text-align: center;
+    text-align: right;
     position: absolute;
     z-index: 10;
     padding: 20px;

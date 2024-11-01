@@ -1,7 +1,18 @@
-/* Navbar geral */
-.navbar{
+/* Navbar Geral */
+.navbar {
     padding: 0 50px;
-    background: var(--primary);
+    background: #fff;
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar img {
+        max-height: 60px;
+    }
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -9,9 +20,8 @@
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color:var(--secondary);
+    color: var(--primary);
     font-size: 1.2rem;
-    outline: none;
     transition: 0.5s;
 }
 
@@ -20,7 +30,53 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background:#151f6dea;
-    /* Ajuste de cor */
+    background: #ffffff5d;
     z-index: 999;
+}
+
+.navbar-toggler {
+    background-color: var(--primary);
+    color: black;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Botões Flutuantes */
+.btn-open-account, .btn-access-account {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px; /* espaço entre botões */
+}
+
+.btn-open-account {
+    background-color: #28a745;
+}
+
+.btn-open-account:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-access-account {
+    background-color: #007bff;
+}
+
+.btn-access-account:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }

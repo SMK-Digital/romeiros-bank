@@ -22,10 +22,10 @@
         <div class="bg-dark text-white">
             <!-- Navbar Offcanvas -->
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid d-flex align-items-center">
+                <div class="container-nav d-flex align-items-center">
                     <!-- Logo -->
                     <a href="#" class="logo">
-                        <img src="assets/img/logo-romeiros-bank-vertical-white.png" alt="Logo Romeiros Bank"
+                        <img src="assets/img/logo-romeiros-bank-vertical.png" alt="Logo Romeiros Bank"
                             class="img-fluid">
                     </a>
 
@@ -35,6 +35,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
+
                 <!-- Offcanvas Menu -->
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -47,15 +48,12 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#about">Sobre</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Serviços
+                                    Produtos
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                                     <li><a class="dropdown-item" href="#services1">Conta Digital</a></li>
@@ -67,14 +65,18 @@
                                 <a class="nav-link" href="#contact">Contato</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#login">Login</a>
+                                <a href="#login" class="btn btn-open-account">Abra sua Conta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#login" class="btn btn-access-account">Acesse sua Conta</a>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </nav>
+
         </div>
-        </nav>
-        </div>
+
         <section id="home" class="hero">
             <div class="hero-background">
                 <img class="w-100" src="assets/img/ROMEIROS_imagem_romeiros_caminhando.jpg" alt="Hero Banner">
@@ -83,18 +85,257 @@
                 <h1>Juntos nas Maiores Romarias do Brasil!</h1>
                 <a href="#services" class="btn cta-button animate__animated animate__fadeIn">Abra sua Conta</a>
             </div>
-            <p class="hero-description">
+            <!-- <p class="hero-description">
                 A conta digital que faz a diferença na sua vida e na jornada de milhares de romeiros.
                 <br>Parte da sua tarifa é investida diretamente em serviços essenciais para garantir a segurança e o
                 bem-estar dos romeiros, como ambulância, transporte, pontos de apoio e muito mais.
-            </p>
+            </p> -->
         </section>
-
-
 
     </header>
 
     <main>
+        <section class="romarias">
+            <h1 class="card__title">As 10 Maiores Romarias do Brasil e Suas Historias</h1>
+            <div class="container-romaria">
+                <div class="card__container swiper ">
+                    <div class="card__content">
+                        <div class="swiper-wrapper">
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-nossa-senhora-aparecida.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Nossa Senhora de Aparecida</h3>
+                                    <p class="card__description">
+                                        Basílica de Nossa Senhora Aparecida, São Paulo
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-cirio-nazare.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Círio de Nazaré</h3>
+                                    <p class="card__description">
+                                        Belém, Pará
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-juazeiro-do-Norte.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Romaria de Juazeiro do Norte</h3>
+                                    <p class="card__description">
+                                        Juazeiro do Norte, Ceará
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-divino-pai-eterno.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Festa do Divino Pai Eterno</h3>
+                                    <p class="card__description">
+                                        Trindade, Goiás
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-bom-jesus-da-lapa.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Bom Jesus da Lapa</h3>
+                                    <p class="card__description">
+                                        Bom Jesus da Lapa, Bahia
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-nossa-senhora-da-penha.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Nossa Senhora da Penha</h3>
+                                    <p class="card__description">
+                                        Rio de Janeiro, RJ
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-sao-francisco-das-chagas.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Festa de São Francisco das Chagas</h3>
+                                    <p class="card__description">
+                                        Canindé, Ceará
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-senhor-do-bonfim.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Romaria do Senhor do Bonfim</h3>
+                                    <p class="card__description">
+                                        Salvador, Bahia
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-sao-jose-do-ribamar.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Romaria de São José de Ribamar</h3>
+                                    <p class="card__description">
+                                        São José de Ribamar, Maranhão
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+
+                            <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                    <img src="assets/icons/romarias-divino-espirito-santo.png" alt="icone-romarias"
+                                        class="card__img">
+                                    <div class="card__shadow"></div>
+                                </div>
+                                <div class="card__data">
+                                    <h3 class="card__name">Romaria do Divino Espírito Santo</h3>
+                                    <p class="card__description">
+                                        Mogi das Cruzes, São Paulo
+                                    </p>
+
+                                    <a href="#" class="card__button">Saiba mais</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <i class="bi bi-arrow-bar-left"></i>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="bi bi-arrow-bar-right"></i>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tips" class="tips-section">
+            <div class="tips-container">
+                <h2 class="tips-title">Dicas para Sua Romaria</h2>
+                <p class="tips-intro">
+                    “A segurança e o bem-estar dos romeiros são prioridade para nós. Confira nossas dicas de como se
+                    preparar para sua romaria de maneira cuidadosa e responsável.”
+                </p>
+
+                <div class="articles-container">
+                    <!-- Artigo 1 -->
+                    <div class="article">
+                        <div class="article-image">
+                            <img src="assets/img/romeiros-dicas-pes.jpg" alt="Cuidados com os Pés">
+                        </div>
+                        <h3 class="article-title">Cuidados com os Pés</h3>
+                        <p class="article-description">Como evitar bolhas e tratar inchaços.</p>
+                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
+                    </div>
+
+                    <!-- Artigo 2 -->
+                    <div class="article">
+                        <div class="article-image">
+                            <img src="assets/img/romeiros-dicas-roupas.jpg" alt="Roupas Adequadas para Romarias">
+                        </div>
+                        <h3 class="article-title">Roupas Adequadas para Romarias</h3>
+                        <p class="article-description">O que vestir para caminhar longas distâncias.</p>
+                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
+                    </div>
+
+                    <!-- Artigo 3 -->
+                    <div class="article">
+                        <div class="article-image">
+                            <img src="assets/img/romeiros-dicas-protetor-solar.jpg" alt="Proteção Solar e Hidratação">
+                        </div>
+                        <h3 class="article-title">Proteção Solar e Hidratação</h3>
+                        <p class="article-description">Como se proteger do sol e manter-se hidratado.</p>
+                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
+                    </div>
+
+                    <!-- Artigo 4 -->
+                    <div class="article">
+                        <div class="article-image">
+                            <img src="assets/img/romeiros-dicas-acessorios.jpg" alt="Materiais de Apoio">
+                        </div>
+                        <h3 class="article-title">Materiais de Apoio</h3>
+                        <p class="article-description">Essenciais para a Romaria: Bonés, Protetor Solar, Capas de Chuva
+                            e Bastões de Caminhada para Mais Conforto e Segurança.</p>
+                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
         <section id="intro" class="intro-section">
             <div class="intro-content">
                 <!-- Imagem Animada de Fundo -->
@@ -260,74 +501,60 @@
                 <a href="#signup" class="btn cta-button">Abra sua Conta Agora</a>
             </div>
         </section>
-
-        <section id="tips" class="tips-section">
-            <div class="tips-container">
-                <h2 class="tips-title">Dicas para Sua Romaria</h2>
-                <p class="tips-intro">
-                    “A segurança e o bem-estar dos romeiros são prioridade para nós. Confira nossas dicas de como se
-                    preparar para sua romaria de maneira cuidadosa e responsável.”
-                </p>
-
-                <div class="articles-container">
-                    <!-- Artigo 1 -->
-                    <div class="article">
-                        <div class="article-image">
-                            <img src="assets/img/cuidados_pes.jpg" alt="Cuidados com os Pés">
-                        </div>
-                        <h3 class="article-title">Cuidados com os Pés</h3>
-                        <p class="article-description">Como evitar bolhas e tratar inchaços.</p>
-                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
-                    </div>
-
-                    <!-- Artigo 2 -->
-                    <div class="article">
-                        <div class="article-image">
-                            <img src="assets/img/roupas_adequadas.jpg" alt="Roupas Adequadas para Romarias">
-                        </div>
-                        <h3 class="article-title">Roupas Adequadas para Romarias</h3>
-                        <p class="article-description">O que vestir para caminhar longas distâncias.</p>
-                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
-                    </div>
-
-                    <!-- Artigo 3 -->
-                    <div class="article">
-                        <div class="article-image">
-                            <img src="assets/img/protecao_solar.jpg" alt="Proteção Solar e Hidratação">
-                        </div>
-                        <h3 class="article-title">Proteção Solar e Hidratação</h3>
-                        <p class="article-description">Como se proteger do sol e manter-se hidratado.</p>
-                        <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
-                    </div>
-
-                    <!-- Artigo 4 -->
-                    <div class="article">
-                        <div class="article-image">
-                            <img src="assets/img/materiais_apoio.jpg" alt="Materiais de Apoio">
-                        </div>
-                        <h3 class="article-title">Materiais de Apoio</h3>
-                        <p class="article-description">Essenciais para a Romaria: Bonés, Protetor Solar, Capas de Chuva
-                            e Bastões de Caminhada para Mais Conforto e Segurança.</p>
-                            <a href="#articles" class="btn btn-one"><span>Leia Mais...</span></a>
-                    </div>
-                </div>
-
-                
-
-              
-
-            
-
-            </div>
-        </section>
-
-
     </main>
 
-    <footer>
-
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Sobre o Romeiros Bank</h6>
+                    <p class="text-justify">O Romeiros Bank é uma instituição financeira inovadora, comprometida em oferecer soluções acessíveis e eficientes para a sua jornada financeira. Com produtos adaptados às suas necessidades, estamos aqui para ajudar você a gerenciar suas finanças de forma simples e segura.</p>
+                </div>
+    
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categorias</h6>
+                    <ul class="footer-links">
+                        <li><a href="#contas">Contas Digitais</a></li>
+                        <li><a href="#microcredito">Microcrédito</a></li>
+                        <li><a href="#doacoes">Doações</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-xs-6 col-md-3">
+                    <h6>Links Rápidos</h6>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#contribuir">Contribua</a></li>
+                        <li><a href="#politica-de-privacidade">Política de Privacidade</a></li>
+                        <li><a href="#sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2024 Todos os Direitos Reservados por 
+                        <a href="#">Romeiros Bank</a>.
+                    </p>
+                </div>
+    
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a class="instagram" href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <p>Design by <a href="https://smkdigital.com.br/" target="_blank">SMK Digital</a></p>
+        </div>
     </footer>
-
 
     <!-- Lib -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -341,6 +568,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- JavaScript personalizado -->
     <script src="assets/js/script.js"></script>
