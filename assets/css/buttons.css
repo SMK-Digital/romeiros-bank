@@ -76,32 +76,36 @@
     transform: scale(0.1, 1);
   }
 
-
-  .btn-open-account, .btn-access-account {
+/* Botões Flutuantes */
+.btn-open-account,
+.btn-access-account {
     padding: 0.5rem 1rem;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    /* espaço entre botões */
 }
 
 .btn-open-account {
-    background-color: #28a745;
+    background-color: var(--primary);
 }
 
 .btn-open-account:hover {
-    background-color: #218838;
+    background-color: var(--emphasis);
+    color: var(--dark);
     transform: scale(1.05);
 }
 
 .btn-access-account {
-    background-color: #007bff;
+    background-color: var(--secondary);
 }
 
 .btn-access-account:hover {
-    background-color: #0056b3;
+    background-color: var(--emphasis);
+    color: var(--dark);
     transform: scale(1.05);
 }
