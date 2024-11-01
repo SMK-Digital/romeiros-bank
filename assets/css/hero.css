@@ -31,7 +31,7 @@
     font-weight: 700;
     text-shadow: 1px 1px #000000af;
     color: #fff;
-    margin-top: -20%;
+    margin-top: 30px;
     margin-bottom: 55%;
     opacity: 0;
     animation: fadeInDown 1s forwards; /* Animação de entrada */
@@ -61,7 +61,7 @@
     }
 
     .container-hero h1 {
-        margin-top: -45%;
+        margin-top: initial;
         font-size: 1.3rem;
         margin-bottom: 20%;
     }
