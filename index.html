@@ -18,72 +18,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="bg-dark text-white">
-            <!-- Navbar Offcanvas -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-nav d-flex align-items-center">
-                    <!-- Logo -->
-                    <a href="#" class="logo">
-                        <img src="assets/img/logo-romeiros-bank-vertical.png" alt="Logo Romeiros Bank"
-                            class="img-fluid">
-                    </a>
+    <header id="header-placeholder"></header>
 
-                    <!-- Toggle Button for Offcanvas -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <!-- Offcanvas Menu -->
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <img src="assets/img/logo-romeiros-bank-vertical.png" alt="Romeiros Bank"
-                            class="img-fluid offcanvas-title" id="offcanvasNavbarLabel">
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">Sobre</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Produtos
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                    <li><a class="dropdown-item" href="under-construction.html">Conta Digital</a></li>
-                                    <li><a class="dropdown-item" href="under-construction.html">Microcrédito</a></li>
-                                    <li><a class="dropdown-item" href="under-construction.html">Doações</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="under-construction.html" class="btn btn-open-account">Abra sua Conta</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="under-construction.html" class="btn btn-access-account">Acesse sua Conta</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-        </div>
-
+    <main>
         <section id="home" class="hero">
             <div class="hero-background">
                 <img class="w-100" src="assets/img/ROMEIROS_imagem_romeiros_caminhando.jpg" alt="Hero Banner">
             </div>
             <div class="container-hero">
                 <h1>Juntos nas Maiores Romarias do Brasil!</h1>
-                <a href="under-construction.html" class="btn cta-button animate__animated animate__fadeIn">Abra sua Conta</a>
+                <!-- <a href="under-construction.html" class="btn cta-button animate__animated animate__fadeIn">Abra sua Conta</a> -->
             </div>
             <!-- <p class="hero-description">
                 A conta digital que faz a diferença na sua vida e na jornada de milhares de romeiros.
@@ -92,21 +36,13 @@
             </p> -->
         </section>
 
-    </header>
-
-    <main>
         <section class="romarias">
-            <h1 class="card__title">As 10 Maiores Romarias do Brasil e Suas Historias</h1>
-            <p class="card__text">
-                No Brasil, as romarias são manifestações de fé profundamente enraizadas na cultura religiosa do país. 
-                Milhões de romeiros peregrinam todos os anos para santuários e festas religiosas, em devoção a santos padroeiros e à Nossa Senhora. 
-                Aqui estão as maiores romarias do Brasil, suas histórias e os santos celebrados em cada uma delas.
-            </p>
             <div class="container-romaria">
+                
                 <div class="card__container swiper ">
+                    <h2 class="card__title">As 10 Maiores Romarias do Brasil e Suas Historias</h2>
                     <div class="card__content">
                         <div class="swiper-wrapper">
-
                             <article class="card__article swiper-slide">
                                 <div class="card__image">
                                     <img src="assets/icons/romarias-nossa-senhora-aparecida.png" alt="icone-romarias"
@@ -119,7 +55,7 @@
                                         Basílica de Nossa Senhora Aparecida, São Paulo
                                     </p>
 
-                                    <a href="#" class="card__button">Saiba mais</a>
+                                    <a href="romarias.html#romaria-1" class="card__button">Saiba mais</a>
                                 </div>
                             </article>
 
@@ -280,6 +216,12 @@
 
                     <!-- Pagination -->
                     <div class="swiper-pagination"></div>
+
+                    <p class="card__text">
+                        No Brasil, as romarias são manifestações de fé profundamente enraizadas na cultura religiosa do país. 
+                        Milhões de romeiros peregrinam todos os anos para santuários e festas religiosas, em devoção a santos padroeiros e à Nossa Senhora. 
+                        Aqui estão as maiores romarias do Brasil, suas histórias e os santos celebrados em cada uma delas.
+                    </p>
                 </div>
             </div>
         </section>
@@ -345,7 +287,7 @@
             <div class="intro-content">
                 <!-- Imagem Animada de Fundo -->
                 <div class="animated-img">
-                    <img src="assets/img/ROMEIROS_IMAGEM_senhora_olhando_lado_transp.png" alt="Imagem Romeiros">
+                    <img src="assets/img/ROMEIROS_IMAGEM_CARTAO.jpg" alt="Imagem Romeiros">
                 </div>
                 <div class="intro-text">
                     <p>
@@ -354,6 +296,7 @@
                         apoiam os romeiros em suas jornadas,
                         como ambulâncias, pontos de apoio, transporte e assistência médica.
                     </p>
+                    <a href="under-construction.html" class="btn cta-button animate__animated animate__fadeIn">Abra sua Conta</a>
                 </div>
             </div>
         </section>
@@ -496,8 +439,15 @@
                         <span class="step-number">4</span>
                         <h3 class="step-title">Participe dos Grupos de Apoio</h3>
                         <p class="step-description">
-                            Entre nos nossos grupos de WhatsApp e troque dicas e experiências com outros romeiros, além
+                            Entre nos nossos 
+                            <span class="logo-span">
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Fchat.whatsapp.com%2FEE59TVEwiI36z0CJHzlZk3%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaaiLRMpdK4e6ynH0JDyqaTtJDKp0vNENzffVgdOdIeTbWZFzWvoPCod2dc_aem_eJKoWwk2sUmjoL9PIuyY9w&e=AT1yIYKeDASXicA_ClZ9DMs6batOeSnPszSV0VPY2WZhORI2rzYEJJFkZcJuxvzahkfrJmSy75F5BX8UZiO7I3OVyiza6wQ5cwOayUxra25NX40epTFolVo">
+                                    grupos de WhatsApp
+                                </a>
+                            </span> 
+                          e troque dicas e experiências com outros romeiros, além
                             de receber suporte em tempo real.
+
                         </p>
                     </div>
                 </div>
@@ -508,62 +458,7 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h6>Sobre o Romeiros Bank</h6>
-                    <p class="text-justify">
-                        O Romeiros Bank foi criado para unir fé e apoio. 
-                        Com nossa conta digital, simples e acessível, você contribui para serviços essenciais que apoiam os romeiros em suas jornadas, 
-                        como ambulâncias, pontos de apoio, transporte e assistência médica.
-                    </p>
-                </div>
-    
-                <div class="col-xs-6 col-md-3">
-                    <h6>Categorias</h6>
-                    <ul class="footer-links">
-                        <li><a href="#contas">Contas Digitais</a></li>
-                        <li><a href="#microcredito">Microcrédito</a></li>
-                        <li><a href="#doacoes">Doações</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-xs-6 col-md-3">
-                    <h6>Links Rápidos</h6>
-                    <ul class="footer-links">
-                        <li><a href="#about">Sobre Nós</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                        <li><a href="#contribuir">Contribua</a></li>
-                        <li><a href="#politica-de-privacidade">Política de Privacidade</a></li>
-                        <li><a href="#sitemap">Sitemap</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p class="copyright-text">Copyright &copy; 2024 Todos os Direitos Reservados por 
-                        <a href="#">Romeiros Bank</a>.
-                    </p>
-                </div>
-    
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a class="instagram" href="https://www.instagram.com/romeiros.caminho.da.fe"><i class="bi bi-instagram"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-credits">
-            <p>Design by <a href="https://smkdigital.com.br/" target="_blank">SMK Digital</a></p>
-        </div>
-    </footer>
+    <footer id="footer-placeholder"></footer>
 
     <!-- Lib -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

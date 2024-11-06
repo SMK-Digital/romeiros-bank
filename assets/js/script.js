@@ -3,6 +3,43 @@
 // Inicializa o WOW.js
 new WOW().init();
 
+// Função para carregar componentes
+function loadComponent(id, file) {
+    let element = document.getElementById(id);
+    if (!element) {
+        console.error(`Elemento com ID ${id} não encontrado.`);
+        return Promise.reject(new Error(`Elemento com ID ${id} não encontrado.`));
+    }
+    
+    return fetch(file)  // Retorna a Promise
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erro ao carregar ${file}: ${response.statusText}`);
+            }
+            return response.text();
+        })
+        .then(data => {
+            element.innerHTML = data; // Define o conteúdo carregado
+        })
+        .catch(error => {
+            console.error(`Erro ao carregar componente ${file}:`, error);
+        });
+}
+
+
+// Carregar os componentes na página
+document.addEventListener("DOMContentLoaded", function() {
+    Promise.all([
+        loadComponent('header-placeholder', 'components/header.html'),
+        // loadComponent('hero-placeholder', 'components/hero.html'),
+        // loadComponent('sections-placeholder', 'components/sections.html'),
+        loadComponent('footer-placeholder', 'components/footer.html')
+    ]).then(() => {
+        // Inicializa a navbar após carregar os componentes
+        initializeNavbarToggle();
+    });
+});
+
 // Navbar fixa
 $(window).on('scroll', function () {
     if ($(this).scrollTop() > 45) {

@@ -29,6 +29,12 @@
         right: 10px;
         /* Mantém o botão de toggle à direita em telas pequenas */
     }
+
+    .offcanvas-body li .btn{
+        margin-top: 60px;
+    }
+
+
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -66,3 +72,4 @@
     display: flex;
     align-items: center;
 }
+

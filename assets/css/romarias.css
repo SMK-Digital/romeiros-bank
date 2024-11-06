@@ -1,0 +1,107 @@
+/* Estilos Romarias */
+.romaria-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.romaria {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.romaria-info {
+    /* background: #fff; */
+    border-radius: 6px;
+}
+
+.romaria-info h2 {
+    font-family: 'Swiss-bold', Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    text-align: center;
+}
+
+.romaria_box_img {
+    position: relative;
+    display:-ms-flexbox;
+    align-items: center;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+}
+
+.romaria-icon{
+    width: 100px;
+    margin: 0 33.3%;
+    position: relative;
+    transition: transform 0.3s;
+    z-index: 5;
+}
+
+.romaria-icon:hover{
+    transform: scale(1.1);
+}
+
+.romaria-img-end {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.romaria-img-end:hover{
+    transform: scale(1.1);
+}
+
+.card_data_romaria {
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px #1f1f20;
+    z-index: 10;
+}
+
+.romaria-footer {
+    text-align: center;
+}
+
+.romaria-footer img{
+    border: 2px groove var(--light);
+    box-shadow: 2px 2px 8px #1f1f20;
+}
+
+.romaria-footer figure {
+    
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+.romaria-footer figcaption {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.romaria-info {
+    max-width: 600px;
+}
+
+@media (max-width: 992px) {
+    .romaria {
+        flex-direction: column;
+        text-align: center;
+    }
+}

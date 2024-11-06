@@ -478,7 +478,7 @@
 
 .card__title {
     position: relative;
-    top: 1rem;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.5rem;
@@ -488,7 +488,7 @@
     padding: 1rem;
 }
 
-.card__text{
+.card__text {
     background: #ffffffa2;
     border-radius: 20px;
     position: relative;
@@ -508,7 +508,7 @@
     margin-inline: 1.75rem;
     border-radius: 1.25rem;
     overflow: hidden;
-    
+
 }
 
 .card__article {
@@ -621,23 +621,23 @@
 /* breakpoints */
 /* small devices */
 @media screen and (max-width: 320px) {
-    .card__data{
+    .card__data {
         padding: 1rem;
     }
-    
+
 }
 
 /* mediun devices */
 @media screen and (min-width: 768px) {
-    .card__content{
+    .card__content {
         margin-inline: 3rem;
     }
 
     .swiper-button-next,
-    .swiper-button-prev{
+    .swiper-button-prev {
         display: block;
     }
-    
+
     .card__title {
         font-size: 3rem;
     }
@@ -645,9 +645,10 @@
 
 /* large devices */
 @media screen and (min-width: 1120px) {
-    .card__container{
-        max-width: 1120px;
+    .card__container {
+        /* max-width: 1200px; */
+        margin: 0 25px;
     }
 
-    
+
 }

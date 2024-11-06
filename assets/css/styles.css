@@ -5,6 +5,7 @@
 @import 'header.css';
 @import 'hero.css';
 @import 'sections.css';
+@import 'romarias.css';
 @import 'buttons.css';
 @import 'footer.css';
 
@@ -28,5 +29,10 @@
 /* Global */
 body{
     background-color: var(--light);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
