@@ -19,45 +19,25 @@
     margin: auto;
 }
 
-.romaria-info {
-    /* background: #fff; */
-    border-radius: 6px;
-}
-
-.romaria-info h2 {
-    font-family: 'Swiss-bold', Arial, Helvetica, sans-serif;
-    color: var(--dark);
+.romaria-title{
     text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-top: 15px;
 }
 
-.romaria_box_img {
-    position: relative;
-    display:-ms-flexbox;
-    align-items: center;
-    padding-top: 1.5rem;
-    margin-bottom: -.75rem;
+.romaria-image {
+    overflow: hidden;
+    border-radius: 8px;
 }
 
-.romaria-icon{
-    width: 100px;
-    margin: 0 33.3%;
-    position: relative;
-    transition: transform 0.3s;
-    z-index: 5;
-}
-
-.romaria-icon:hover{
-    transform: scale(1.1);
-}
-
-.romaria-img-end {
+.romaria-image img {
     width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-    transition: transform 0.3s;
+    height: auto;
+    transition: transform 0.5s ease;
 }
 
-.romaria-img-end:hover{
+.romaria-image:hover img {
     transform: scale(1.1);
 }
 
